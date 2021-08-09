@@ -5,6 +5,9 @@ metadata:
   name: account
   namespace: default
 spec:
+  chart:
+    spec:
+      version: ">=1.0.0"
   test:
     enable: false
   values:
