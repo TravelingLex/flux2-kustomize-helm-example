@@ -6,7 +6,7 @@ metadata:
   namespace: default
 spec:
   test:
-    enable: false
+    enable: true
   values:
     # Stage values for account chart
     minReplicas: 1
