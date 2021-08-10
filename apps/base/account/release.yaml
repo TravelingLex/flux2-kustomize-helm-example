@@ -53,3 +53,10 @@ spec:
       secret:
         secretName: auth-public
         defaultMode: 0777
+
+    ingress:
+      elbHostname: "*.elb.us-east-1.amazonaws.com"
+      hostname: "k8s.niche.private"
+      ingressClass: "nginx-internal"
+      path: /account
+      proxyBodySize: 1m
